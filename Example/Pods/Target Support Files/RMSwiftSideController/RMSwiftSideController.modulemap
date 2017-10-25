@@ -1,0 +1,6 @@
+framework module RMSwiftSideController {
+  umbrella header "RMSwiftSideController-umbrella.h"
+
+  export *
+  module * { export * }
+}
