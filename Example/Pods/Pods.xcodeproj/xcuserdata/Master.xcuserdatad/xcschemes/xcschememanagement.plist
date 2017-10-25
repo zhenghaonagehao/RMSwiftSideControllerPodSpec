@@ -4,17 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FBSnapshotTestCase.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-RMSwiftSideController_Example.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-RMSwiftSideController_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,17 +22,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>34CD2E3428AB802BACA62286FF5074B1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>DFF1C63AEBBC2FE56CC9A0E5F1979E8F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F58FB5664BC968EA1D87C3B0EAA24C0F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import RMSwiftSideController
+import Pods_RMSwiftSideController_Example
 
 class Tests: XCTestCase {
     

@@ -13,7 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AF49C03BDF3853F06961AF04 /* Pods_RMSwiftSideController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3713E1FCFE03531538BBD7 /* Pods_RMSwiftSideController_Tests.framework */; };
 		B318232307D5859DBA1BC88F /* Pods_RMSwiftSideController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F29A775EAF5FD60FE6F3EAB /* Pods_RMSwiftSideController_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		1F29A775EAF5FD60FE6F3EAB /* Pods_RMSwiftSideController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMSwiftSideController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A74C5B204CB662A7ABEF7A3 /* Pods-RMSwiftSideController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMSwiftSideController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMSwiftSideController_Tests/Pods-RMSwiftSideController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A3713E1FCFE03531538BBD7 /* Pods_RMSwiftSideController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMSwiftSideController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RMSwiftSideController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMSwiftSideController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +39,11 @@
 		607FACE51AFB9204008FA782 /* RMSwiftSideController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMSwiftSideController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B9EAE7E8C9CAC15C25FB913 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7B9EAE7E8C9CAC15C25FB913 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8988A3122BD6AC85B86D24A4 /* Pods-RMSwiftSideController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMSwiftSideController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMSwiftSideController_Example/Pods-RMSwiftSideController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D45B329B4FFC56E6C246158 /* Pods-RMSwiftSideController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMSwiftSideController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMSwiftSideController_Tests/Pods-RMSwiftSideController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C2031025C823F4AC8A258F09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2031025C823F4AC8A258F09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F22A6905A5D18CC7430335D5 /* Pods-RMSwiftSideController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMSwiftSideController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMSwiftSideController_Example/Pods-RMSwiftSideController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F47CABFEDE4A107CFA0E51E4 /* RMSwiftSideController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RMSwiftSideController.podspec; path = ../RMSwiftSideController.podspec; sourceTree = "<group>"; };
+		F47CABFEDE4A107CFA0E51E4 /* RMSwiftSideController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMSwiftSideController.podspec; path = ../RMSwiftSideController.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF49C03BDF3853F06961AF04 /* Pods_RMSwiftSideController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +70,6 @@
 			children = (
 				F22A6905A5D18CC7430335D5 /* Pods-RMSwiftSideController_Example.debug.xcconfig */,
 				8988A3122BD6AC85B86D24A4 /* Pods-RMSwiftSideController_Example.release.xcconfig */,
-				9D45B329B4FFC56E6C246158 /* Pods-RMSwiftSideController_Tests.debug.xcconfig */,
-				3A74C5B204CB662A7ABEF7A3 /* Pods-RMSwiftSideController_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -186,12 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RMSwiftSideController_Tests" */;
 			buildPhases = (
-				5832A41587505B7BD42AB783 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				A6117B29AC4D6700C99CD7A6 /* [CP] Embed Pods Frameworks */,
-				D967700B85BDF2B1E417B2D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,7 +210,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0830;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -264,36 +255,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5832A41587505B7BD42AB783 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A6117B29AC4D6700C99CD7A6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMSwiftSideController_Tests/Pods-RMSwiftSideController_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BC040CD54BB67AC50BE444CF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,21 +268,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMSwiftSideController_Example/Pods-RMSwiftSideController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D967700B85BDF2B1E417B2D5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMSwiftSideController_Tests/Pods-RMSwiftSideController_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0CEF48EE15FE95B9C4BE818 /* [CP] Check Pods Manifest.lock */ = {
@@ -454,6 +400,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -499,6 +447,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -514,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -529,13 +479,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D45B329B4FFC56E6C246158 /* Pods-RMSwiftSideController_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -550,13 +499,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A74C5B204CB662A7ABEF7A3 /* Pods-RMSwiftSideController_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -567,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

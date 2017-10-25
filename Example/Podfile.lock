@@ -1,13 +1,7 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - RMSwiftSideController (0.1.0)
+  - RMSwiftSideController (0.1.2)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - RMSwiftSideController (from `../`)
 
 EXTERNAL SOURCES:
@@ -15,9 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  RMSwiftSideController: ab9bb7838b0050b5ef6e039fa955a6a32790bf52
+  RMSwiftSideController: 7c8f06abafa0db32eb7cebaca9d105a5641f3e38
 
-PODFILE CHECKSUM: 090deb65320f3972b2a6e9c1c83f5ccf8d3ef1b3
+PODFILE CHECKSUM: 56538ae9c47638a130c1b57216bcb7da5b38582b
 
 COCOAPODS: 1.2.0
