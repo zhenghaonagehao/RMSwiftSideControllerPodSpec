@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RMSwiftSideController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '侧边栏Swift语言'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 模仿RMSideController编写的Swift版
                        DESC
 
-  s.homepage         = 'https://github.com/493893140@qq.com/RMSwiftSideController'
+  s.homepage         = 'https://github.com/zhenghaonagehao/RMSwiftSideControllerPodSpec.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zhenghonghao' => '493893140@qq.com' }
